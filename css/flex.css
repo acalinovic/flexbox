@@ -1,0 +1,48 @@
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    background-color: orange;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.nowrap {
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: darkblue;
+    min-width: 100%;
+}
+footer {
+    background-color: darkgreen;
+    min-width: 100%;
+}
+aside {
+    background-color: antiquewhite;
+}
+main {
+    background-color: aliceblue;
+}
+wrapper {
+    outline: brown solid thin;
+    min-height: 100%;
+    min-width: 100%;
+}
